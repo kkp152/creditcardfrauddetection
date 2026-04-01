@@ -50,3 +50,7 @@ streamlit run streamlit_app.py
 - `src/fraud_rag/` — data prep, models, inference, RAG  
 - `app/main.py` — FastAPI  
 - `train.py` — training + FAISS index build  
+
+## App Deployed
+
+- `URL:` - https://credit-card-cc-fraud-detection.streamlit.app/
