@@ -1,0 +1,28 @@
+# Core
+numpy>=1.24,<3
+pandas>=2.0,<3
+scikit-learn>=1.3,<2
+torch>=2.1,<3
+imbalanced-learn>=0.11,<1
+# Optional; needs OpenMP on macOS (brew install libomp). Falls back to sklearn HistGradientBoosting.
+xgboost>=2.0,<4
+
+# HuggingFace
+transformers>=4.36,<5
+sentence-transformers>=2.2,<4
+accelerate>=0.25,<2
+safetensors>=0.4,<1
+
+# RAG & API
+faiss-cpu>=1.7.4,<2
+langchain>=0.2,<0.4
+langchain-community>=0.2,<0.4
+langchain-core>=0.2,<0.4
+
+fastapi>=0.109,<1
+uvicorn[standard]>=0.27,<1
+pydantic>=2.5,<3
+python-multipart>=0.0.6,<1
+
+# UI
+streamlit>=1.28,<2
